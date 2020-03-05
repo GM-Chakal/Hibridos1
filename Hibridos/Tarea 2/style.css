@@ -14,12 +14,7 @@
 
 @font-face
 {
-    font-family: 'Dayrom';
-    src: url('fonts/dayrom.eot');
-    src: url('fonts/dayrom.eot?#iefix') format('embedded-opentype'),
-         url('fonts/dayrom.woff') format('woff'),
-         url('fonts/dayrom.ttf') format('truetype'),
-         url('fonts/dayrom.svg#Dayrom') format('svg');
+    font: 'Garamondx';
     font-weight: normal;
     font-style: normal;
 }
@@ -28,7 +23,8 @@
 
 body
 {
-    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background-image: images/back.jpg;
+    font-family: 'Garamondx';
     background: rgba(212,228,239,1);
     background: -moz-radial-gradient(center, ellipse cover, rgba(212,228,239,1) 0%, rgba(134,174,204,1) 100%);
     background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(212,228,239,1)), color-stop(100%, rgba(134,174,204,1)));
@@ -78,7 +74,7 @@ header h1
 
 header h2
 {
-    font-family: Dayrom, serif;
+    font-family: Garamondx, serif;
     font-size: 1.1em;
     margin-top: 0px;
     font-weight: normal;
@@ -173,6 +169,7 @@ nav a:hover
 
 article, aside
 {
+    font: 'Garamondx';
     display: inline-block;
     vertical-align: top;
     text-align: justify;
@@ -180,6 +177,7 @@ article, aside
 
 article
 {
+    font: 'Garamondx';
     width: 625px;
     margin-right: 15px;
 }
@@ -188,11 +186,6 @@ article
 {
     vertical-align: middle;
     margin-right: 8px;
-}
-
-article p
-{
-    font-size: 0.8em;
 }
 
 aside
@@ -269,7 +262,7 @@ footer h1
 
 #my_pictures img
 {
-    border: 1px solid #181818;
+    border: 0px solid #181818;
     margin-right: 2px;
 }
 
@@ -279,14 +272,7 @@ footer h1
     vertical-align: top;
     margin-top: 0;
     width: 48%;
-    list-style-image: url('images/external_link.png');
     padding-left: 2px;
-}
-
-#my_friends a
-{
-    text-decoration: none;
-    color: #760001;
 }
 
 
